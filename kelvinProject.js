@@ -11,3 +11,7 @@ let fahrenheit = celsius * (9/5) + 32;
 fahrenheit = Math.floor(fahrenheit);
 //this will round down the temperature
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+let newton = Math.floor(celsius*(33/100));
+console.log(`The temperature is ${newton} degrees Newton.`);
+//extra practice with Newton
